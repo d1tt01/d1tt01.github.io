@@ -1,0 +1,108 @@
+<html><head>
+
+    <title> Main </title>
+
+    <style>
+
+      .board {
+              display: flex;
+              flex-direction: row;
+              flex-wrap: wrap;
+              gap: 10px;
+              }
+
+      .tile {
+              background-color: lightgreen;
+              font-size: 20px;
+              color: black;
+              border: 2px solid green;
+              border-radius: 12px;
+              padding: 15px;
+              margin: 2px;
+              box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+              width: 250px;
+              }
+
+      .tile img {
+              max-width: 100%;
+              height: auto;
+              display: block;
+              }
+
+      h2 {
+              font-size: 40px;
+              color: rebeccapurple;
+              text-align: center;
+              }
+
+      a {
+              font-size: 20px;
+              font-family: monospace;
+              color: black;
+              }
+
+      a:hover {
+              font-size: 30px;
+              font-family: sans-serif;
+              color: rebeccapurple;
+              }
+
+      p {
+              font-size: 30px;
+              text-align: center;
+              }
+
+      h1 {
+              color: rebeccapurple;
+              font-family: monospace;
+              text-align: center;
+              }
+
+      body {
+              min-height: 100vh;
+              color: rebeccapurple;
+              max-width: 900px;
+              margin: 0 auto;
+              background-color: darkgreen;
+              }
+
+      .main {
+              background-color: lightgreen;
+              font-size: 20px;
+              color: black;
+              border: 2px solid green;
+              border-radius: 12px;
+              padding: 15px;
+              margin: 2px;
+              box-shadow: 0 4px 8px rgba(0,0,0,2);
+              }
+
+    </style>
+
+  </head>
+
+  <body>
+  
+  <div class="main">
+      <h1>
+        Leopard 2pl
+      </h1>
+  </div>
+
+ <div class="main">
+      <h1>
+         History
+      </h1>
+      <p>
+        Leopard 2PL is a polish modification of german Leopard 2A4
+        It was originally ordered in December 2015 but was only delivered in 2020, <br>
+        because of the long wait it was decided to call the arrived tanks Leopard 2PL M1 <br>
+        even though there is literally no difference ...
+        funny isn't? :)
+      </p>
+  </div>
+
+ 
+
+
+</div></div></body></html>
